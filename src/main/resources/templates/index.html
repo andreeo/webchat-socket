@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es"
+      xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
 <head>
     <title>WebChatSocket</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.6.1/sockjs.min.js"></script>
@@ -7,7 +8,9 @@
 </head>
 <body>
 <div id="chat">
-    <label for="from"></label><input type="text" id="from" placeholder="Your name" />
+    <h1>Chat 2.0</h1>
+    <h3>Welcome, <span th:text="${#authentication.name}">User</span></h3>
+    <label for="from"></label><input type="hidden" id="from" th:value="${#authentication.name}" />
     <label for="message"></label><input type="text" id="message" placeholder="Enter message" />
     <button onclick="sendMessage()">Send</button>
     <div id="messages"></div>
