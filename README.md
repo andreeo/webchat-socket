@@ -1,4 +1,4 @@
-# ChatWeb with Socket
+# WebChat with Socket
 
 This project is a simple web chat application built using Spring Boot and WebSockets. It allows multiple users to join a chat room and exchange messages in real-time.
 
@@ -19,8 +19,8 @@ To get a local copy up and running, follow these simple steps.
 1. **Clone the repository**
 
     ```sh
-    git clone https://github.com/andreeo/chatweb-with-socket.git
-    cd chatweb-with-socket
+    git clone https://github.com/andreeo/webchat-socket.git
+    cd webchat-socket
     ```
 
 2. **Navigate to the project directory**
@@ -28,7 +28,7 @@ To get a local copy up and running, follow these simple steps.
    Ensure you are in the root directory of the project where the `pom.xml` file is located.
 
     ```sh
-    cd chatweb-with-socket
+    cd webchat-socket
     ```
 
 ### Running the Application
@@ -57,12 +57,12 @@ You can run the application either using Maven or directly from IntelliJ IDEA.
 
 1. **Open the project**
 
-   Open IntelliJ IDEA and select `File -> Open...`, then navigate to the `chatweb-with-socket` directory and open it.
+   Open IntelliJ IDEA and select `File -> Open...`, then navigate to the `webchat-socket` directory and open it.
 
 2. **Run the application**
 
-    - Locate the `ChatWebWithSocketApplication.java` file in the `src/main/java` directory.
-    - Right-click on the `ChatWebWithSocketApplication` class and select `Run 'ChatWebWithSocketApplication'`.
+   - Locate the `WebChatSocketApplication.java` file in the `src/main/java` directory.
+   - Right-click on the `WebChatSocketApplication` class and select `Run 'WebChatSocketApplication'`.
 
 3. **Access the application**
 
@@ -104,4 +104,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Project Link: [https://github.com/andreeo/chatweb-with-socket](https://github.com/andreeo/chatweb-with-socket)
+Project Link: [https://github.com/andreeo/webchat-socket](https://github.com/andreeo/webchat-socket)
